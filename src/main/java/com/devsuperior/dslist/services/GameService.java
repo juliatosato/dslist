@@ -9,7 +9,7 @@ import com.devsuperior.dslist.dto.GameMinDTO;
 import com.devsuperior.dslist.entities.Game;
 import com.devsuperior.dslist.repositories.GameRepository;
 
-@Service // Anotation para registrar o componente -> poderia usar o @Component também
+@Service // Annotation para registrar o componente -> poderia usar o @Component também
 public class GameService { // A camada de Service é onde ficam as regra de negócio
 
 	@Autowired
